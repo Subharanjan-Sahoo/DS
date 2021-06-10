@@ -1,0 +1,48 @@
+Algorithm:(Ascending order)
+----------------------------
+1.Starting with the first element(index = 0) compare current element with  the next element of the list .
+
+2.If the current element is greater then the next element of the list swap them.   
+
+3.If the Current less the the next element , move to the next element .Repeat step 1. 
+
+---------
+Example:
+---------
+[10  15  4  23  0]  List                                              |
+--                                                                    |
+first element = 10                                                    |  
+next element = 15                                                     |
+10 < 15 ?     True (no Change)                                        |
+[10  15  4  23  0]                                                    |
+----                                                                  |
+second element = 15                                                   |
+next element = 4                                                      |
+15 < 4 ?  False (swap the number)                                     |
+[10  4  15  23  0]                                                    |
+----                                                                  |
+third element = 15                                                    |       first iteration  
+next element = 23                                                     |
+15 < 23  ? True  (no Change)                                          |
+[10  4  15  13  0]                                                    |
+----                                                                  |
+forth element = 23                                                    |
+next element = 0                                                      |
+23 < 0  ?  False (swap the number)                                    |
+[10  4  15  0  23]                                                    |
+                                                                      |
+                                                                     
+final list after the first iteration  is [10  4  15  0  23]
+
+                                               /\
+so on we have to compare like above ----------  | 
+do this step untill the list is sorted.
+
+[4  10  0  15  23]                                                     |          second iteration
+
+[4  0  10  15  23]                                                     |          third iteration
+
+[0  4  10  15  23]                                                     |          forth iteration 
+
+the final list is    [0  4  10  15  23]
+
