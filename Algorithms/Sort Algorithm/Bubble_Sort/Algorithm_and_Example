@@ -44,5 +44,5 @@ do this step untill the list is sorted.
 
 [0  4  10  15  23]                                                     |          forth iteration 
 
-the final list is    [0  4  10  15  23]
+the final list in sorted wey [0  4  10  15  23]
 
