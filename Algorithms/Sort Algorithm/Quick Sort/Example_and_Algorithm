@@ -1,0 +1,81 @@
+        0   1     2     3   4     5
+a =    14   25   100   14   1    17 
+        |                   |     |
+       Left                Right Pivot
+
+
+1) left index <= right index        True(Next step) False(swap Pivot to Left)
+2)a[Left] <= Pivot                  True (Move to Next Value of the list thn go to step 1) False (Next step 3 )
+3)a[Right] >= Pivot                 True (Move to Next Value of the list) False(Swap the left to right) then go to step 1
+
+
+
+   index left <= right index
+1)  0         <=     4        ??   True(Move To The Next step)
+   
+   a[left]    <=    Pivot 
+2)   14       <=     17       ??  True(Move to Next Value)  Left = 25  and go to step 1
+
+
+1)    1       <=     4        ??  True(Move To the Next step)
+
+
+2)   25       <=    17        ??  False(Next step)
+
+
+3)   1       >=     17        ??  False ( swap Left and Right  )
+
+
+-----------a = 14   1   100   14   25   17 ---------  
+
+
+1)  1   <=      4             ??    True (Move To Next Step)
+
+
+2)  1   <=     17             ??   True(Next Value and go to step 1)
+
+
+1)  2   <=     4              ?? True(Next step)
+
+
+2) 100  <=     17              ?? False(Next Step)
+
+
+3) 25   >=     17              ?? True(Rigth move to Next Value)
+
+
+1) 2    <=     3               ?? True (Next step)
+
+
+2) 100  <=    17               ?? False (Swap the right and left Value)
+
+
+--------------a - 14   1   14   100   25  17-------------
+
+1) 2    <=    3                ?? True (Next Step)
+
+
+2) 14   <=    17               ??  True(next Value and go to step 1)
+
+
+1) 3     <=   3                   ?? True(Next step)
+
+2) 100    <=   17                   ??  False (Next step)
+
+3) 100     >=  17                  ?? True (Next Value)
+
+
+1)  3     <=    2                  ?? False (swap Pivot and left)
+
+--------a -  14   1   14   17    25    100 -------------------
+
+then divide  the list from Pivot
+
+14    1    14           and      25   100  
+
+go the same but  both the list as we have done in the top
+
+
+the final out come is 
+
+1    14    14   17   25    100
