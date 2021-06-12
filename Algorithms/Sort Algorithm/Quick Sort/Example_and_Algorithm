@@ -1,3 +1,14 @@
+Algorithm:
+-------------
+1)Select the Pivot element.
+2)Findout the correct position of Pivot element in the list by rearranging it.
+3)Divide the list on pivot element.
+4)Sort the sublist recursively.
+
+------------
+Example:
+------------
+
         0   1     2     3   4     5
 a =    14   25   100   14   1    17 
         |                   |     |
