@@ -1,7 +1,7 @@
 def pivot_place(list1,first,last):  #to get the pivot currect positon
-    pivot =list1[first]
-    left =first+1
-    right =last
+    pivot = list1[first]
+    left = first+1
+    right = last
     while True:
         while left<=right and list1[left]<=pivot:    #in Decanding order change the sign to >
             left = left+1
