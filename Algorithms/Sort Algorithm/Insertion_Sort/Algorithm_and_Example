@@ -1,0 +1,44 @@
+Algorithm:
+-----------
+
+1) Consider the first element to be sorted and rest to be unsorted.
+2) take the first element in the unsortedpart(u1) and compare it with sorted part element(s1).
+3) if u1 < s1 then insert u1 in the correct index, else leave as it is.
+4) take next element in the unsorted past and compare with sorted element.
+5) repeat the 3 and 4 untill all the element are sorted.
+
+---------
+Example:
+---------
+0   1   2   3   4
+10  4   25  1   5
+
+let 10 is sorted and other are unsorted
+
+current_element  <  sorted element
+
+4 < 10  ??    True (move to right)
+
+4   10   25   1   5
+
+25 < 10 ??    False(No Change)
+
+4   10   25   1   5
+
+25 <  1 ??    True (move right)
+
+4  10   1   25   5 
+
+25 < 5  ??   False (No Change)
+
+1   4   10   25   5
+
+5 < 25  ??  True(move right)
+
+
+1   4   5   10   25   <---------------   sorted list
+
+
+
+
+
