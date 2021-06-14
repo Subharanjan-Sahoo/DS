@@ -1,0 +1,28 @@
+Algorithm:
+-----------
+1) Take the list of number
+2) Find out the gap/incrementor
+3) Create the sublist based on gap and sort them using insertion sort Algorithm.
+4) Reduce gap and repeat step 3.
+5) Stop When gap is 0.
+
+-----------
+Example:-
+-----------
+
+34  26  93  17  77  31  44  55  20  
+
+gap = len(list1) || 2
+9//2 = 2
+
+20  26  44  17  54  31  93  55  77     gap = 4
+
+gap= gap // 2
+= 4//2  = 2
+
+20  17  44  26  54  31  77  55  93    gap = 2
+
+gap = gap // 2
+= 2 //2 =1
+
+17  20  26  31  44  54  55  77  93
