@@ -1,0 +1,33 @@
+  
+
+     |___|___|
+       |   |
+     data Link 
+
+
+
+
+     Link List Advantage 
+     --------------------
+    1) Dynamic Data Structure. (NO need to give the size of List)
+    2) Insertion and Deletion is easy.
+    3) You can implement stack queue graph.
+
+     Link List Disadvantage
+     -----------------------
+    1)Need extra Memory. (Need Extra Memory)
+    2)Random access not possible.
+    3)
+    
+    
+    Use
+    ---
+    Music Player : songs are Linked
+    Image viewer : Image are Linked
+
+    TYPES:
+    ------
+    -> Singly
+    -> Doubly
+    -> Circular
+    
