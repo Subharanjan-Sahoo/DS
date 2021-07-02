@@ -1,0 +1,39 @@
+--> Non-Linear Data Structure
+--> Represents relationship between Nodes.
+--> Collection of entites call Nodes.
+--> Nodes are connected by edges.
+    
+Characteristics of Tree
+------------------------
+1.Root Node
+    * The top most Node.
+    * A Tree can contain only one root Node.
+2.In Tree if we have N Nodes then will have N-1 edges/link
+   eg: 11 Node
+       (11-1)=10 no edges.
+3.Every child will have only one parent But parent can have multiple child.
+4.Tree is a recursive Structure
+
+Degree of a Node:
+------------------- 
+It is number of child in that Node
+
+Degree of Tree:
+-----------------
+The highest degree of a node in the tree is called Tree.
+
+Level:
+------
+The height of the tree is call is Level.
+
+height of node:
+-----------------
+The longest path node to leaf.
+
+height of a tree:
+----------------
+height of root node
+
+Depth:
+-------
+find the path and calculate the number of edges.
