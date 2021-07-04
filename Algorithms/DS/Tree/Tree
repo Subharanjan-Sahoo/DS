@@ -37,3 +37,38 @@ height of root node
 Depth:
 -------
 find the path and calculate the number of edges.
+
+
+
+Binary Tree:
+-------------
+If node contain 2 child not more than the 2 child thn it is called the Binary tree.
+
+
+TYPES:
+-------
+1) Full Binary Tree
+
+2) Complete Binary Tree
+
+3) derfect Binary Tree
+
+4) Balanced Binary Tree
+
+5) Pathological Binary Tree
+
+
+
+Full Binary Child:
+-------------------
+It is a Binary tree in which Every node other then leaf node has two children.(No one Node)
+
+
+Complete Binary Tree:
+-----------------------
+-> all Level except last Level
+                   -> Completely filled
+
+-> last Level -> Complete filled 
+                       -> Leaf to Right
+                       
